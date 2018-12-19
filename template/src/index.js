@@ -1,1 +1,1 @@
-console.log('this src index.js')
+console.log('this template')
