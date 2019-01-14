@@ -1,1 +1,1 @@
-console.log('this template index.js')
+console.log('{{name}}')
