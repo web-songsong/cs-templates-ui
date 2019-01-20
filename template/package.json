@@ -42,5 +42,5 @@
   "main": "dist/svt.common.js",
   "author": "{{author}}",
   "license": "ISC",
-  "keywords": [{{keywords.replace(/\s+/g,',').replace(/,+/g,',').split(',')}}]
+  "keywords": {{keywords}}
 }
