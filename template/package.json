@@ -1,0 +1,46 @@
+{
+  "name": "{{packageName}}",
+  "version": "{{version}}",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "npm:build": "vue-cli-service build --target lib --name {{name}} 'build/packages.build.js'",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "lib-flexible": "^0.3.2",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-service": "^3.0.1",
+    "postcss-px2rem": "^0.3.0",
+    "style-resources-loader": "^1.2.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-style-resources-loader": "^0.1.3",
+    "vue-template-compiler": "^2.5.17",
+    "vuepress": "^0.14.8"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "files": [
+    "dist/svt.common.js",
+    "dist/svt.css"
+  ],
+  "description": "{{description}}",
+  "main": "dist/svt.common.js",
+  "author": "{{author}}",
+  "license": "ISC",
+  "keywords": [{{keywords}}]
+}
