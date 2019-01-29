@@ -39,7 +39,7 @@
     "dist/svt.css"
   ],
   "description": "{{description}}",
-  "main": "dist/svt.common.js",
+  "main": "dist/{{name}}.common.js",
   "author": "{{author}}",
   "license": "ISC",
   "keywords": []
