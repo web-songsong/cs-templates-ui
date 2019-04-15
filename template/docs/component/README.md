@@ -5,13 +5,13 @@
 ### npm 安装
 
 ```bash
-npm i song-vue-template -S
+npm i {{projectName}} -S
 ```
 
 ### yarn 安装
 
 ```bash
-yarn add -D song-vue-template
+yarn add -D {{projectName}}
 ```
 
 ## 快速上手
@@ -20,8 +20,8 @@ yarn add -D song-vue-template
 
 ```js
 import Vue from 'vue'
-import Svt from 'song-vue-template'
-import 'song-vue-template/dist/css/svt.css'
+import Svt from '{{projectName}}'
+import '{{projectName}}/dist/css/svt.css'
 import App from './App.vue'
 Vue.use(Svt)
 new Vue({

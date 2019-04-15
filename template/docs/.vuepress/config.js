@@ -64,13 +64,13 @@ function addStyleResource(rule) {
 
 module.exports = {
   dest: '../ui-dc',
-  title: 'song-vue-template',
+  title: '{{projectName}}',
   description: 'charmingsong',
   themeConfig: {
     nav: navGenerate(),
     sidebar: sidebarsGenerate(),
-    repo: 'web-songsong/song-vue-template',
-    docsRepo: 'web-songsong/song-vue-template',
+    repo: 'web-songsong/{{projectName}}',
+    docsRepo: 'web-songsong/{{projectName}}',
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '提出您的宝贵意见！'
