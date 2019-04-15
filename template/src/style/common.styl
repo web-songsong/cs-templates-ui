@@ -1,0 +1,41 @@
+/* button方法 */
+$btn()
+  cursor pointer
+  border-radius 2em
+  text-align center
+  user-select none
+
+/* 行高和字体行高同步 */
+$hl(x, n = 1)
+  variable = unit(x, 'px')
+  height variable
+  line-height n
+
+/* 垂直居中 */
+$middle()
+  position absolute
+  top 50%
+  left 50%
+  transform translate3d(-50%, -50%, 0)
+
+/* 透明动画 */
+$fade-transition()
+  .fade-enter-active, .fade-leave-active
+    transition opacity 0.3s
+
+  .fade-enter, .fade-leave-to
+    opacity 0
+
+/* 移动动画 */
+$drawer-transition()
+  .drawer-enter-active, .drawer-leave-active
+    transition transform 0.3s
+
+  .drawer-enter, .drawer-leave-to
+    transform translate3d(100%, 0, 0)
+
+/* 颜色改变 */
+$color-type(name)
+  color #fff
+  background-color name
+  border-color name

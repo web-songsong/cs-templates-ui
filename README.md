@@ -1,1 +1,1 @@
-# xs-templates
+# template-ui
