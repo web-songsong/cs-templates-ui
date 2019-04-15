@@ -63,17 +63,12 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  dest: '../ui-dc',
   title: '{{projectName}}',
-  description: 'charmingsong',
+  description: '{{template}}',
   themeConfig: {
     nav: navGenerate(),
     sidebar: sidebarsGenerate(),
-    repo: 'web-songsong/{{projectName}}',
-    docsRepo: 'web-songsong/{{projectName}}',
-    docsDir: 'docs',
-    editLinks: true,
-    editLinkText: '提出您的宝贵意见！'
+    docsDir: 'docs'
   },
   chainWebpack: config => {
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
